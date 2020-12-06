@@ -1,0 +1,54 @@
+2020-12-02 19:51:07,205 ERROR task.model.service.impl.CustomerServiceImpl [main] ERROR
+com.monkeybusiness.training.task.exception.DaoException: Customer already exists...
+	at com.monkeybusiness.training.task.model.dao.impl.CustomerDaoImpl.add(CustomerDaoImpl.java:26) ~[classes/:?]
+	at com.monkeybusiness.training.task.model.service.impl.CustomerServiceImpl.add(CustomerServiceImpl.java:25) [classes/:?]
+	at com.monkeybusiness.training.task.model.creator.Reader.fromFile(Reader.java:40) [classes/:?]
+	at com.monkeybusiness.training.task.main.Main.main(Main.java:9) [classes/:?]
+2020-12-02 19:51:07,230 ERROR task.model.service.impl.CustomerServiceImpl [main] ERROR
+com.monkeybusiness.training.task.exception.DaoException: Customer already exists...
+	at com.monkeybusiness.training.task.model.dao.impl.CustomerDaoImpl.add(CustomerDaoImpl.java:26) ~[classes/:?]
+	at com.monkeybusiness.training.task.model.service.impl.CustomerServiceImpl.add(CustomerServiceImpl.java:25) [classes/:?]
+	at com.monkeybusiness.training.task.model.creator.Reader.fromFile(Reader.java:40) [classes/:?]
+	at com.monkeybusiness.training.task.main.Main.main(Main.java:9) [classes/:?]
+2020-12-02 19:51:07,231 ERROR task.model.service.impl.CustomerServiceImpl [main] ERROR
+com.monkeybusiness.training.task.exception.DaoException: Customer already exists...
+	at com.monkeybusiness.training.task.model.dao.impl.CustomerDaoImpl.add(CustomerDaoImpl.java:26) ~[classes/:?]
+	at com.monkeybusiness.training.task.model.service.impl.CustomerServiceImpl.add(CustomerServiceImpl.java:25) [classes/:?]
+	at com.monkeybusiness.training.task.model.creator.Reader.fromFile(Reader.java:40) [classes/:?]
+	at com.monkeybusiness.training.task.main.Main.main(Main.java:9) [classes/:?]
+2020-12-02 19:51:07,231 ERROR task.model.service.impl.CustomerServiceImpl [main] ERROR
+com.monkeybusiness.training.task.exception.DaoException: Customer already exists...
+	at com.monkeybusiness.training.task.model.dao.impl.CustomerDaoImpl.add(CustomerDaoImpl.java:26) ~[classes/:?]
+	at com.monkeybusiness.training.task.model.service.impl.CustomerServiceImpl.add(CustomerServiceImpl.java:25) [classes/:?]
+	at com.monkeybusiness.training.task.model.creator.Reader.fromFile(Reader.java:40) [classes/:?]
+	at com.monkeybusiness.training.task.main.Main.main(Main.java:9) [classes/:?]
+2020-12-02 19:51:07,232 ERROR task.model.service.impl.CustomerServiceImpl [main] ERROR
+com.monkeybusiness.training.task.exception.DaoException: Customer already exists...
+	at com.monkeybusiness.training.task.model.dao.impl.CustomerDaoImpl.add(CustomerDaoImpl.java:26) ~[classes/:?]
+	at com.monkeybusiness.training.task.model.service.impl.CustomerServiceImpl.add(CustomerServiceImpl.java:25) [classes/:?]
+	at com.monkeybusiness.training.task.model.creator.Reader.fromFile(Reader.java:40) [classes/:?]
+	at com.monkeybusiness.training.task.main.Main.main(Main.java:9) [classes/:?]
+2020-12-02 19:51:07,232 ERROR task.model.service.impl.CustomerServiceImpl [main] ERROR
+com.monkeybusiness.training.task.exception.DaoException: Customer already exists...
+	at com.monkeybusiness.training.task.model.dao.impl.CustomerDaoImpl.add(CustomerDaoImpl.java:26) ~[classes/:?]
+	at com.monkeybusiness.training.task.model.service.impl.CustomerServiceImpl.add(CustomerServiceImpl.java:25) [classes/:?]
+	at com.monkeybusiness.training.task.model.creator.Reader.fromFile(Reader.java:40) [classes/:?]
+	at com.monkeybusiness.training.task.main.Main.main(Main.java:9) [classes/:?]
+2020-12-02 19:51:07,233 ERROR task.model.service.impl.CustomerServiceImpl [main] ERROR
+com.monkeybusiness.training.task.exception.DaoException: Customer already exists...
+	at com.monkeybusiness.training.task.model.dao.impl.CustomerDaoImpl.add(CustomerDaoImpl.java:26) ~[classes/:?]
+	at com.monkeybusiness.training.task.model.service.impl.CustomerServiceImpl.add(CustomerServiceImpl.java:25) [classes/:?]
+	at com.monkeybusiness.training.task.model.creator.Reader.fromFile(Reader.java:40) [classes/:?]
+	at com.monkeybusiness.training.task.main.Main.main(Main.java:9) [classes/:?]
+2020-12-02 19:51:07,233 ERROR task.model.service.impl.CustomerServiceImpl [main] ERROR
+com.monkeybusiness.training.task.exception.DaoException: Customer already exists...
+	at com.monkeybusiness.training.task.model.dao.impl.CustomerDaoImpl.add(CustomerDaoImpl.java:26) ~[classes/:?]
+	at com.monkeybusiness.training.task.model.service.impl.CustomerServiceImpl.add(CustomerServiceImpl.java:25) [classes/:?]
+	at com.monkeybusiness.training.task.model.creator.Reader.fromFile(Reader.java:40) [classes/:?]
+	at com.monkeybusiness.training.task.main.Main.main(Main.java:9) [classes/:?]
+2020-12-02 19:51:07,234 ERROR task.model.service.impl.CustomerServiceImpl [main] ERROR
+com.monkeybusiness.training.task.exception.DaoException: Customer already exists...
+	at com.monkeybusiness.training.task.model.dao.impl.CustomerDaoImpl.add(CustomerDaoImpl.java:26) ~[classes/:?]
+	at com.monkeybusiness.training.task.model.service.impl.CustomerServiceImpl.add(CustomerServiceImpl.java:25) [classes/:?]
+	at com.monkeybusiness.training.task.model.creator.Reader.fromFile(Reader.java:40) [classes/:?]
+	at com.monkeybusiness.training.task.main.Main.main(Main.java:9) [classes/:?]

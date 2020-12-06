@@ -1,0 +1,10 @@
+Vasua Pupkin Longin tam 132451 15345;
+Vasua Vasua Vasua tut 111111 22222;
+Vasua Vasua Pupkin netam 222222 11111;
+Pupkin Vasua Vasua netut 978655 33333;
+Pupkin Pupkin Vasua tuttam 764564 55534;
+Pupkin Vasua Pupkin tamtut 234342 23423;
+Longin Pupkin Pupkin tamnetut 345223 34567;
+Pupkin Longin Pupkin tutnetam 453453 44363;
+Pupkin Pupkin Longin netuttam 564454 34634;
+Longin Longin Longin netamtut 342423 34223;
