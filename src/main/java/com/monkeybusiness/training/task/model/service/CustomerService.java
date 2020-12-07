@@ -5,21 +5,22 @@ import com.monkeybusiness.training.task.model.entity.Customer;
 
 import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
 
 public interface CustomerService {
-  boolean add(Customer customer);
+  void add(Customer customer);
 
-  boolean addAll(List<Customer> customerList) throws DaoException;
+  void addAll(List<Customer> customerList) throws DaoException;
 
-  boolean remove(Customer customer) throws DaoException;
+  void remove(Customer customer) throws DaoException;
 
-  boolean removeAll() throws DaoException;
+  void removeAll() throws DaoException;
 
   void updateCustomerName(long id, String name);
 
-  boolean updateAll(List<Customer> customerList) throws DaoException;
+  void updateAll(List<Customer> customerList) throws DaoException;
 
-  Customer findById(long id);
+  Optional<Customer> findById(long id);
 
   List<Customer> findAll();
 
@@ -29,9 +30,9 @@ public interface CustomerService {
 
   List<Customer> findByPatronymic(String patronymic);
 
-  boolean sort(Comparator comparator);
+  void sort(Comparator comparator);
 
-  boolean sortById();
+  void sortById();
 
-  boolean sortByName();
+  void sortByName();
 }

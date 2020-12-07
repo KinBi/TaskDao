@@ -13,18 +13,18 @@ public class Customer {
 
   public Customer() {
     this.customerId = IdGenerator.getNewId();
-    this.surname = "";
     this.name = "";
+    this.surname = "";
     this.patronymic = "";
     this.address = "";
     this.creditCardNumber = -1;
     this.bankAccountNumber = -1;
   }
 
-  public Customer(String surname, String name, String patronymic, String address, int creditCardNumber, int bankAccountNumber) {
+  public Customer(String name, String surname, String patronymic, String address, int creditCardNumber, int bankAccountNumber) {
     this.customerId = IdGenerator.getNewId();
-    this.surname = surname;
     this.name = name;
+    this.surname = surname;
     this.patronymic = patronymic;
     this.address = address;
     this.creditCardNumber = creditCardNumber;

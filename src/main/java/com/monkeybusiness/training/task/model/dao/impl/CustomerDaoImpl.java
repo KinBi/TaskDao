@@ -7,6 +7,7 @@ import com.monkeybusiness.training.task.model.storage.Bank;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class CustomerDaoImpl implements CustomerDao {
   private static final CustomerDaoImpl instance = new CustomerDaoImpl();
@@ -39,7 +40,7 @@ public class CustomerDaoImpl implements CustomerDao {
   @Override
   public void remove(Customer customer) throws DaoException {
     if (!bank.contains(customer)) {
-      throw new DaoException();
+      throw new DaoException("Customer not exists...");
     }
 
     bank.remove(customer);
@@ -56,8 +57,8 @@ public class CustomerDaoImpl implements CustomerDao {
   }
 
   @Override
-  public void updateCustomerName(long id, String name) {
-    Customer customer = findById(id);
+  public void updateCustomerName(long id, String name) throws DaoException{
+    Customer customer = findById(id).get();
     int index = bank.indexOf(customer);
     customer.setName(name);
     bank.setCustomer(index, customer);
@@ -70,16 +71,25 @@ public class CustomerDaoImpl implements CustomerDao {
   }
 
   @Override
-  public Customer findById(long id) {
+  public Optional<Customer> findById(long id) throws DaoException {
+    if (bank.customersSize() < 1) {
+      throw new DaoException("Cannot find customer...");
+    }
+
     Customer customer;
 
     int i = 0;
     do {
       customer = bank.getCustomer(i);
       i++;
+
+      if (i < bank.customersSize()) {
+        throw new DaoException();
+      }
+
     } while (customer.getCustomerId() != id);
 
-    return customer;
+    return Optional.of(customer);
   }
 
   @Override
@@ -96,7 +106,11 @@ public class CustomerDaoImpl implements CustomerDao {
   }
 
   @Override
-  public List<Customer> findByName(String name) {
+  public List<Customer> findByName(String name) throws DaoException {
+    if (bank.customersSize() < 1) {
+      throw new DaoException();
+    }
+
     List<Customer> customerList = new ArrayList<>();
     Customer customer;
 
@@ -112,7 +126,11 @@ public class CustomerDaoImpl implements CustomerDao {
   }
 
   @Override
-  public List<Customer> findBySurname(String surname) {
+  public List<Customer> findBySurname(String surname) throws DaoException {
+    if (bank.customersSize() < 1) {
+      throw new DaoException();
+    }
+
     List<Customer> customerList = new ArrayList<>();
     Customer customer;
 
@@ -128,7 +146,11 @@ public class CustomerDaoImpl implements CustomerDao {
   }
 
   @Override
-  public List<Customer> findByPatronymic(String patronymic) {
+  public List<Customer> findByPatronymic(String patronymic) throws DaoException {
+    if (bank.customersSize() < 1) {
+      throw new DaoException();
+    }
+
     List<Customer> customerList = new ArrayList<>();
     Customer customer;
 
